@@ -1,0 +1,143 @@
+body {
+    padding: 0 2rem;
+}
+
+.site-menu__list {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    border-bottom: 3px solid #eee;
+}
+
+.site-menu__list--item {
+    color: #24a57c;
+    padding: 1.5rem 0.25rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.site-menu__img {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0;
+}
+
+.site-intro__img {
+    max-width: 100%;
+}
+
+.site-intro__title {
+    font-size: 1.375rem;
+    font-style: italic;
+    padding: 0.5rem;
+}
+
+.site-intro__info {
+    font-style: italic;
+    background: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.site-intro__author {
+    padding: 0.5rem 0;
+    font-size: 0.75rem;
+    text-align: right;
+}
+
+.site-subscribe {
+    padding: 1rem;
+    border-top: 2px dashed #eee;
+    border-bottom: 2px dashed #eee;
+}
+
+.site-subscribe__info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.site-subscribe .site-subscribe__icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.site-subscribe__desc {
+    font-style: italic;
+    font-size: 0.875rem;
+}
+
+.site-subscribe__form--input {
+    margin-right: 1rem;
+}
+
+.site-main-content__item {
+    padding: 1rem;
+}
+
+.site-main-content__item--img {
+    padding: 0.75rem;
+    border: 2px solid #eee;
+}
+
+.site-main-content__item--img img {
+    width: 100%;
+}
+
+.site-main-content__item--title {
+    color: #24a57c;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.site-main-content__item--desc {
+    line-height: 1.25rem;
+}
+
+.site-main-content__item--footer {
+    color: #ccc;
+    margin-top: 1rem;
+}
+
+.site-main-content__item--footer {
+    color: #ccc;
+}
+
+.site-main-content__item--footer--read {
+    color: #24a57c;
+    font-weight: 600;
+    border-bottom: 1px dashed #eee;
+}
+
+.site-footer {
+    margin-top: 1.5rem;
+    padding: 1rem 0 1.5rem 0;
+    border-top: 2px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-footer__info {
+    color: #ccc;
+}
+
+.site-footer__info--link a {
+    color: #24a57c;
+    cursor: pointer;
+}
+
+.site-footer__info--rights {
+    padding-top: 0.25rem;
+}
+
+.site-footer__social {
+    display: flex;
+}
+
+.site-footer__social .site-footer__social--item {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+}
