@@ -1,7 +1,39 @@
 /* Large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 1200px) {
-    body {
-        
+    .site-content {
+        display: flex;
+        padding: 1rem;
+    }
+    .site-menu {
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        padding: 0 1rem;
+    }
+    .site-menu__list {
+        flex-flow: column;
+        margin: 1rem 0;
+    }
+    .site-menu__list--item {
+        padding: 0.25rem;
+    }
+    .site-intro__tab--sub--text{
+        display: inline-block;
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+    .site-intro__tab--text {
+        display: inline-block;
+        line-height: 1rem;
+        padding: 0.25rem;
+    }
+    .site-intro__tab li{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .site-intro__author{
+        bottom: 5rem;
     }
 }

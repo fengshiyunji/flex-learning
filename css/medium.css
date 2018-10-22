@@ -68,6 +68,10 @@
     .site-intro__tab li.active{
         background: #abff0c;
     }
+
+    .site-intro__tab--sub--text{
+        display: none;
+    }
     .site-main-content {
         display: flex;
     }
